@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.github.rpablo30</groupId>
-	<artifactId>agenda_blue</artifactId>
+	<artifactId>Abastecimeto</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>agenda_blue</name>
 	<description>Projeto para relatórios de abastecimento de um posto de combustível. </description>
