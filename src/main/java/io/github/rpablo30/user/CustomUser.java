@@ -1,5 +1,6 @@
 package io.github.rpablo30.user;
 
+import java.util.UUID;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -19,7 +20,8 @@ import java.util.List;
 public class CustomUser implements UserDetails {
 
     @Id
-    private String id;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private UUID id;
     private String login;
 
     private String password;
