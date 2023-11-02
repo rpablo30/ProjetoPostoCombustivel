@@ -1,5 +1,4 @@
 package io.github.rpablo30.entity;
-import java.math.BigDecimal;
 import java.util.Date;
 
 import javax.persistence.Entity;
